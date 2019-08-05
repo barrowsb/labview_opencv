@@ -1,1 +1,1 @@
-# Labview_opencv
+# OpenCV for LabVIEW
