@@ -1,7 +1,27 @@
 # OpenCV for LabVIEW
 OpenCV is the de facto industry standard for open-sourced, computer vision. Written in C++ and wrapped up for Python, OpenCV can now be implemented in LabVIEW through the Python Node.
 
-# SubVIs to add
+### SubVIs included
+<ul>
+  <li>Initialize CV Session<br />
+    cv2.VideoCapture()</li>
+  <li>Close CV Session<br />
+    self.caprelease(), cv2.destroyAllWindows()</li>
+  <li>Snap Image<br />
+    self.cap.read()</li>
+  <li>Python Debug<br />
+    Python print() to LabVIEW front panel</li>
+  <li>Python Path<br />
+    path to python source file</li>
+  <li>Flip Horizontal/Vetical<br />
+    cv2.flip()</li>
+  <li>Face Detection/Tracking<br />
+    cv2.cascadeClassifier()</li>
+  <li>Edge Detection<br />
+    cv2.Canny()</li>
+ </ul>
+
+### SubVIs to add
 <ul>
   <li>General convolution<br />
     cv2.filter2D()<br />
@@ -41,23 +61,3 @@ OpenCV is the de facto industry standard for open-sourced, computer vision. Writ
   <br />
   ** Resizes image (would require undoing hardcoding of 640x480)
 </ul>
-
-# SubVIs included
-<ul>
-  <li>Initialize CV Session<br />
-    cv2.VideoCapture()</li>
-  <li>Close CV Session<br />
-    self.caprelease(), cv2.destroyAllWindows()</li>
-  <li>Snap Image<br />
-    self.cap.read()</li>
-  <li>Python Debug<br />
-    Python print() to LabVIEW front panel</li>
-  <li>Python Path<br />
-    path to python source file</li>
-  <li>Flip Horizontal/Vetical<br />
-    cv2.flip()</li>
-  <li>Face Detection/Tracking<br />
-    cv2.cascadeClassifier()</li>
-  <li>Edge Detection<br />
-    cv2.Canny()</li>
- </ul>
