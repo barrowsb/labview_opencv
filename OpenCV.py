@@ -1,3 +1,8 @@
+# Tufts University Center for Engineering Education and Outreach
+# Summer 2019
+# Main Contributors: Brian Barrows, Chris Rogers
+# This is the source Python code called by the Python node in LabVIEW to run the OpenCV SubVIs.
+
 import cv2, numpy as np
 
 global video
