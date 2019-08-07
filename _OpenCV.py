@@ -1,3 +1,8 @@
+# Tufts University Center for Engineering Education and Outreach
+# Summer 2019
+# Main Contributors: Brian Barrows, Chris Rogers
+# This is trial Python code used in developing the OpenCV SubVIs.
+
 import cv2, numpy as np
 from timeit import default_timer as timer
 
