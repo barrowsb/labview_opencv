@@ -1,5 +1,5 @@
 # OpenCV for LabVIEW
-OpenCV is the de facto industry standard for open-sourced, computer vision. Written in C++ and wrapped up for Python, OpenCV can now be implemented in LabVIEW through the Python Node.
+Written originally in C++ but wrapped up for Python, OpenCV is the de facto industry standard for open-sourced, computer vision. Using this repo, it can now be implemented in LabVIEW through the Python Node.
 
 *EX PROJ - Rotating Laptop Stand* is the code I used on a laptop stand that rotates to follow a face. It uses these SubVIs along with the *uPython* palette for communicating with the SPIKE Prime.
 
